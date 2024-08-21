@@ -47,6 +47,21 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import rutgers from "./rutgers.jpg";
+import iitb from "./iitb.png";
+import ld from "./ld.jpg";
+import mpi from "./mpi_openmp.png";
+import fsi from "./numerical_methods_FSI.png";
+import ptraid from "./pairs_trading.png";
+import pinn from "./Physics-informed_nerural_networks.png";
+import pfopt from "./portfolio_optimization.png";
+import svcd from "./svd_cuda.png";
+import svm from "./svm.png";
+import aayush from "./aayush.jpg";
+import linedata from "./linedata.png";
+import quantsapp from "./quantsapp.jpeg";
+import rates from "./interest_rates.png";
+import frdetection from "./credit_fruad.jpg"
 
 export {
   quotes,
@@ -97,5 +112,21 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  rutgers,
+  iitb,
+  ld,
+  mpi,
+  fsi,
+  pinn,
+  pfopt,
+  svcd,
+  svm,
+  ptraid,
+  aayush,
+  linedata,
+  quantsapp,
+  rates,
+  frdetection
+
 };

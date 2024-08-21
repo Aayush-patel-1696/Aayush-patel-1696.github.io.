@@ -26,7 +26,22 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+ rutgers,
+ iitb,
+  ld,
+  mpi,
+  fsi,
+  pinn,
+  pfopt,
+  svcd,
+  svm,
+  aayush,
+  ptraid,
+  linedata,
+  quantsapp,
+  rates,
+  frdetection
 } from "../assets";
 
 import {
@@ -72,7 +87,18 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiNumpy,
+  SiScipy,
+  SiPytorch,
+  SiPandas,
+  SiTensorflow,
+  SiScikitlearn,
+  SiOctave,
+  SiNvidia,
+  SiDocker,
+  SiAwsorganizations
+  
 } from "react-icons/si";
 
 import {
@@ -114,7 +140,7 @@ export const navLinks = [
   },
   {
     id: "openSource",
-    title: "Open Source",
+    title: "Publication",
   },
   {
     id: "extraCurricular",
@@ -129,29 +155,32 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: rutgers,
     title: "Rutgers University",
     degree: "Master of Technology, Quantitative Finance",
     duration: "Aug 2023 - Dec 2024",
-    // content1: "",
-  
+    content1: "GPA : 3.97",
+    content2: "Received merit-based scholarship by the MQF Committee for being among exceptional candidates"
   },
   {
     id: "education-2",
-    icon: nitk,
+    icon: iitb,
     title: "Indian Institute of Technology Bombay",
     degree: "Master of Technology, Computational Fluid Physics",
     duration: "Aug 2018 - May 2021",
-    content1: "",
+    content1: "CGPA: 9.51",
+    content2:"Head TA for Fluid Mechanics and Fluid Power Lab",
+    content3:"PG Cultural Secratery"
   
   },
   {
     id: "education-3",
-    icon: pba,
+    icon: ld,
     title: "L.D College of Engineering",
     degree: "Bachelor of Technology, Mechanical Engineering",
     duration: "August 2014 - June 2018",
-    //content1: "",
+    content1: "CGPA: 7.87",
+    content2:"Selected in top 1% students in India to qualify in IIT-GATE examination among 0.194 million candidates"
   }
   
 ];
@@ -237,11 +266,11 @@ export const skills = [
   {
     title: "Programming Languages",
     items: [
-      {
-        id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
+      // {
+      //   id: "pl-1",
+      //   icon: DiRuby,
+      //   name: "Ruby",
+      // },
       {
         id: "pl-2",
         icon: SiPython,
@@ -254,44 +283,44 @@ export const skills = [
       },
       {
         id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
+        icon: SiOctave,
+        name: "Octave",
       },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
-      },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
+      // {
+      //   id: "pl-5",
+      //   icon: FaRust,
+      //   name: "Rust",
+      // },
+      // {
+      //   id: "pl-6",
+      //   icon: DiJava,
+      //   name: "Java",
+      // },
+      // {
+      //   id: "pl-7",
+      //   icon: SiC,
+      //   name: "C",
+      // },
+      // {
+      //   id: "pl-8",
+      //   icon: AiFillHtml5,
+      //   name: "HTML",
+      // },
+      // {
+      //   id: "pl-9",
+      //   icon: DiCss3,
+      //   name: "CSS",
+      // },
+      // {
+      //   id: "pl-10",
+      //   icon: SiJavascript,
+      //   name: "JavaScript",
+      // },
+      // {
+      //   id: "pl-11",
+      //   icon: SiSolidity,
+      //   name: "Solidity",
+      // }
     ],
   },
   {
@@ -299,44 +328,44 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiNumpy,
+        name: "Numpy",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiScipy,
+        name: "Scipy",
       },
       {
         id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: SiPytorch,
+        name: "Pytorch",
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiScikitlearn,
+        name: "Scikit learn",
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiTensorflow,
+        name: "Tensorflow",
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiPandas,
+        name: "Pandas",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
+        icon: SiNvidia,
+        name: "Cuda",
       },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
-      },
+      // {
+      //   id: "f-8",
+      //   icon: SiAzureartifacts,
+      //   name: "Azure",
+      // },
     ],
   },
   {
@@ -354,8 +383,8 @@ export const skills = [
       },
       {
         id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
+        icon: SiDocker,
+        name: "Docker",
       },
       {
         id: "t-4",
@@ -379,14 +408,14 @@ export const skills = [
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: SiAwsorganizations,
+        name: "Aws",
       },
-      {
-        id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
-      },
+      // {
+      //   id: "t-9",
+      //   icon: SiVite,
+      //   name: "ViteJS",
+      // },
     ],
   },
 ];
@@ -394,7 +423,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "Machine Learning Engineer, Linedata",
-    logo: oracle,
+    logo: linedata,
     link: "https://www.linedata.com/",
     positions: [
       {
@@ -438,7 +467,7 @@ export const experiences = [
   },
   {
     organisation: "Python Software Developer, Quantsapp",
-    logo: averlon,
+    logo: quantsapp,
     link: "https://www.quantsapp.com/about",
     positions: [
       {
@@ -464,58 +493,94 @@ export const experiences = [
         ],
       },
     ],
-  // },
-  // {
-  //   organisation: "IRIS, NITK",
-  //   logo: iris,
-  //   link: "https://iris.nitk.ac.in/about_us",
-  //   positions: [
-  //     {
-  //       title: "Tech Lead",
-  //       duration: "Apr 2023 - Apr 2024",
-  //       content: [
-  //         {
-  //           text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-  //           link: "",
-  //         },
-  //         {
-  //           text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-  //           link: "",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "Web Lead",
-  //       duration: "Apr 2022 - Present",
-  //       content: [
-  //         {
-  //           text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-  //           link: "",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "Web Developer",
-  //       duration: "Nov 2021 - Apr 2022",
-  //       content: [
-  //         {
-  //           text: "Added Conditional Fields support to the Forms Module.",
-  //           link: "",
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "Web Developer Intern",
-  //       duration: "Jun 2021 - Oct 2021",
-  //       content: [
-  //         {
-  //           text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-  //           link: "",
-  //         },
-  //       ],
-  //     },
-  //   ],
+  },
+  {
+    organisation: "Research Associate, Optimization & Control Lab of Prof. Andrzej Ruszczynski",
+    logo: rutgers,
+    link: "https://scholar.google.com/citations?user=O5SjWqAAAAAJ",
+    positions: [
+      {
+        title: "",
+        duration: "Apr 2024 - July 2024",
+        content: [
+          {
+            text: "Developed multi agent control algorithm using risk averse reinforcement learning",
+            link: "",
+          },
+          {
+            text: "Simulated robust control algorithm based on coherent Markov risk measure, involving low dimensional policy evaluation, leading to statistical improvement of mean simulated value up to 1.3 times compared to heuristic policy",
+            link: "",
+          },
+          {
+            text: "Research Grant: Office of Naval Research Award N00014-21-1-2161: “Risk-Averse Learning and Controlfor Distributed Dynamical Systems with Partial Information,”",
+            link: "",
+
+          }
+        ],
+      },
+      // {
+      //   title: "Web Lead",
+      //   duration: "Apr 2022 - Present",
+      //   content: [
+      //     {
+      //       text: "Managing a team of 6 student developers while also overlooking multiple modules.",
+      //       link: "",
+      //     },
+      //   ],
+      // },
+      // {
+      //   title: "Web Developer",
+      //   duration: "Nov 2021 - Apr 2022",
+      //   content: [
+      //     {
+      //       text: "Added Conditional Fields support to the Forms Module.",
+      //       link: "",
+      //     },
+      //   ],
+      // },
+      // {
+      //   title: "Web Developer Intern",
+      //   duration: "Jun 2021 - Oct 2021",
+      //   content: [
+      //     {
+      //       text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+      //       link: "",
+      //     },
+      //   ],
+      // },
+    ],
+
+  },
+  {
+    organisation: "Research Associate, Fluid Structre Interaction Lab of Prof. Rajneesh Bhardwaj",
+    logo: iitb,
+    link: "https://scholar.google.com/citations?user=Q-HoTFUAAAAJ",
+    positions: [
+      {
+        title: "",
+        duration: "Apr 2020 - July 2021",
+        content: [
+          {
+            text: "",
+            link: "",
+          },
+          {
+            text: "Solved nonlinear systems of PDE on Finite Difference Grid in a parallelized manner using OpenMP and MPI libraries to compute it on supercomputing cluster",
+            link: "",
+          },
+          {
+            text: "Identified optimal frequencies of a thrust signals using Fast Fourier Transform (FFT) and developed physics based reduced order model which predicts simulation results within 10% relative error",
+            link: "",
+          },
+          {
+            text:"Publication: A. Patel and R. Bhardwaj, Propulsive performance of a two-dimensional elliptic foil undergoing interlinked pitching and heaving in Physics of Fluids (Vol.34, Issue 11), AIP Publication (IF 4.9)",
+            link:""
+          }
+        ],
+      },
+    ]
   }
+
 ];
 
 export const openSourceContributions = [
@@ -721,38 +786,38 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Portfolio Optimization",
+    title: "Portfolio Optimization using Coherent Measures of Risk ",
     github: "https://github.com/Aayush-patel-1696/PortfolioOptimization",
     link: "",
-    image: comicify_ai,
+    image: pfopt,
     content:
       "Strategies of Stochastic Optimization of portfolio construction and their scratch implementation in Python using Numpy and Scipy with backtesting",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiScipy,
+        name: "Scipy"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiNumpy,
+        name: "Numpy"
       },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
-      },
+      // {
+      //   id: "icon-3",
+      //   icon: SiOpenai,
+      //   name: "OpenAI"
+      // },
+      // {
+      //   id: "icon-4",
+      //   icon: SiGooglecloud,
+      //   name: "Google Cloud Platform"
+      // },
+      // {
+      //   id: "icon-5",
+      //   icon: SiFlask,
+      //   name: "Flask"
+      // },
     ],
   },
   {
@@ -760,40 +825,40 @@ export const projects = [
     title: "Black Scholes PDE solver using PINN",
     github: "https://github.com/Aayush-patel-1696/BlackSholesPINN",
     link: "",
-    image: greentrust,
+    image: pinn,
     content:
       "Physics-Informed Neural Network (PINN) for solving Black-Scholes Option Pricing ",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiScipy,
+        name: "Scipy"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiNumpy,
+        name: "Numpy"
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiPytorch,
+        name: "Pytorch"
       },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+      // {
+      //   id: "icon-5",
+      //   icon: SiSolidity,
+      //   name: "Solidity"
+      // },
+      // {
+      //   id: "icon-6",
+      //   icon: IoIosNotificationsOutline,
+      //   name: "Push Protocol"
+      // },
     ],
   },
   {
@@ -801,243 +866,243 @@ export const projects = [
     title: "Interest Rates Modelling",
     github: "https://github.com/Aayush-patel-1696/InterestRateModelling",
     link: "",
-    image: chargeswap,
+    image: rates,
     content:
       "Prediction of Interest Rates using Stochastic Equilibrium Models",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiScipy,
+        name: "Scipy"
       },
       {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        id: "icon-2",
+        icon: SiNumpy,
+        name: "Numpy"
       },
       {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiPython,
+        name: "Python"
       },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+      // {
+      //   id: "icon-5",
+      //   icon: FaHardHat,
+      //   name: "HardHat"
+      // },
+      // {
+      //   id: "icon-6",
+      //   icon: SiIpfs,
+      //   name: "IPFS"
+      // },
+      // {
+      //   id: "icon-7",
+      //   icon: SiArduino,
+      //   name: "Arduino"
+      // },
+      // {
+      //   id: "icon-8",
+      //   icon: IoIosNotificationsOutline,
+      //   name: "Push Protocol"
+      // },
     ],
   },
   {
     id: "project-4",
-    title: "Algorithmic Trading",
+    title: "Optimized Pairs trading strategy using Bayesian Optimization and time series forecasting",
     github: "https://github.com/Aayush-patel-1696/SpreadPrediction",
     link: "",
-    image: placeicon,
+    image: ptraid,
     content:
-      "Pairs trading strategy using Time Series Modelling",
+      "",
     stack: [
       {
         id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
+        icon: SiScipy,
+        name: "Scipy"
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiNumpy,
+        name: "Numpy"
       },
       {
         id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
+        icon: SiPandas,
+        name: "Pandas"
       },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
+      // {
+      //   id: "icon-4",
+      //   icon: SiJquery,
+      //   name: "jQuery"
+      // },
+      // {
+      //   id: "icon-5",
+      //   icon: SiTwilio,
+      //   name: "Twillio"
+      // },
     ],
   },
   {
     id: "project-5",
-    title: "Numerical Methods",
+    title: "Numerical Methods for solving Fluid Structure Interaction problem",
     github: "",
     link: "https://www.researchgate.net/profile/Rajneesh-Bhardwaj-2/publication/363826593_Propulsive_performance_of_a_two-dimensional_elliptic_foil_undergoing_interlinked_pitching_and_heaving/links/64e6d7dc40289f7a0faf0444/Propulsive-performance-of-a-two-dimensional-elliptic-foil-undergoing-interlinked-pitching-and-heaving.pdf",
-    image: recruitment,
+    image: fsi,
     content:
-      "Quantitative Analysis Of flapping foil using Computational Methods",
+      "Solved nonlinear systems of coupled PDE(Partial Differential Equation) on Finite Difference Grid in a parallelized manner using OpenMP and MPI libraries to compute it on supercomputing cluster",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiCplusplus,
+        name: "Scipy"
       },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
+      // {
+      //   id: "icon-2",
+      //   icon: SiNumpy,
+      //   name: "Numpy"
+      // },
+      // {
+      //   id: "icon-3",
+      //   icon: SiJquery,
+      //   name: "jQuery"
+      // },
     ],
   },
   {
     id: "project-6",
-    title: "Credit Card Fraud Detection",
+    title: "Credit Card Fraud Detection using Machine Learning",
     github: "https://github.com/Aayush-patel-1696/CreditCardFraudDetection",
     link: "",
-    image: cdc,
+    image: frdetection,
     content:
       "Detection of fraudulent transactions using a credit card transactions dataset. The goal is to build and evaluate machine learning models and hyper parameter tuning using Bayesian optimization to identifying fraudulent activities",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiScipy,
+        name: "Scipy"
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiNumpy,
+        name: "Numpy"
       },
       {
         id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
+        icon: SiScikitlearn,
+        name: "Sciki-learn"
       },
     ],
   },
   {
     id: "project-7",
     title: "Support Vector Machine Solver",
-    github: "",
+    github: "https://github.com/Aayush-patel-1696/Support-Vector-Machine",
     link: "",
-    image: huntly,
+    image: svm,
     content:
-      "implements the support vector machine algorithm from scratch. The algorithm is implemented from paper entitled 'Pegasos: Primal Estimated sub-GrAdient SOlver for SVM'. Also this solver is validated on linear and non linear classifier.",
+      "Implementation of the support vector machine algorithm from scratch. The algorithm is implemented from paper entitled 'Pegasos: Primal Estimated sub-GrAdient SOlver for SVM'. Also this solver is validated on linear and non linear classifier.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
+        icon: SiPython,
+        name: "Python"
       },
       {
         id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
+        icon: SiNumpy,
+        name: "Numpy"
       },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
+      // {
+      //   id: "icon-3",
+      //   icon: SiReplit,
+      //   name: "Replit"
+      // },
+      // {
+      //   id: "icon-4",
+      //   icon: SiFlask,
+      //   name: "Flask"
+      // },
+      // {
+      //   id: "icon-5",
+      //   icon: SiFigma,
+      //   name: "Figma"
+      // },
+      // {
+      //   id: "icon-6",
+      //   icon: SiGooglemaps,
+      //   name: "Google Maps API"
+      // },
     ],
-  // },
-  // {
-  //   id: "project-8",
-  //   title: "Cluboard",
-  //   github: "https://github.com/mittal-parth/Cluboard",
-  //   link: "",
-  //   image: cluboard,
-  //   content:
-  //     "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiDjango,
-  //       name: "Django"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiCss3,
-  //       name: "CSS"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiJavascript,
-  //       name: "JavaScript"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiChartdotjs,
-  //       name: "Chart.js"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-9",
-  //   title: "Cash Flow Minimiser",
-  //   github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-  //   link: "https://minimise-cash-flow.netlify.app/",
-  //   image: cash_flow,
-  //   content:
-  //     "A React application to help users visualise and minimise cash flow among multiple transactions.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: AiFillHtml5,
-  //       name: "HTML"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: DiCss3,
-  //       name: "CSS"
-  //     }
-  //   ],
-  // },
+  },
+  {
+    id: "project-8",
+    title: "Singular Value Decompostion on GPU",
+    github: "https://github.com/Aayush-patel-1696/SVDCuda",
+    link: "",
+    image: svcd,
+    content:
+      "Implementation of linear algerbra solver in C++ using CUDA Computing obtaining 50x speed up compared to legacy C++ code",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiCplusplus,
+        name: "C++"
+      },
+      {
+        id: "icon-2",
+        icon: SiNvidia,
+        name: "CUDA"
+      },
+      // {
+      //   id: "icon-3",
+      //   icon: DiCss3,
+      //   name: "CSS"
+      // },
+      // {
+      //   id: "icon-4",
+      //   icon: SiJavascript,
+      //   name: "JavaScript"
+      // },
+      // {
+      //   id: "icon-5",
+      //   icon: SiBootstrap,
+      //   name: "Bootstrap"
+      // },
+      // {
+      //   id: "icon-6",
+      //   icon: SiChartdotjs,
+      //   name: "Chart.js"
+      // },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "High Performance Computing using OpenMp and MPI",
+    github: "https://github.com/Aayush-patel-1696/High-Performance-Computing/tree/main",
+    link: "",
+    image: mpi,
+    content:
+      "Parallel computation of Monte Carlo integration and linear algebra operations using OpenMP and MPI in C++ ",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiCplusplus,
+        name: "C++"
+      },
+      // {
+      //   id: "icon-2",
+      //   icon: SiNumpy,
+      //   name: "Numpy"
+      // },
+      // {
+      //   id: "icon-3",
+      //   icon: DiCss3,
+      //   name: "CSS"
+      // }
+    ],
+  },
   // {
   //   id: "project-10",
   //   title: "Portfolio",
@@ -1062,7 +1127,7 @@ export const projects = [
   //       name: "HTML"
   //     },
   //   ],
-  },
+  // },
 ];
 
 export const blogPosts = [
@@ -1258,6 +1323,6 @@ export const socialMedia = [
 
 export const aboutMe = {
     name: "Aayush Patel",
-    tagLine: " Aspiring Quant | ex-ML Engineer @Linedata | IIT Bombay'21",
-    intro: "I am an engineer, researcher, and developer with a passion for solving complex problems at the intersection of finance and engineering through the fusion of models, algorithms, and data. My professional experience spans over two years in the finance industry, where I have worked as a Software Developer and Machine Learning Engineer. My areas includes but not limited to High Performance Numerical Computing and Stochastic Optimization. Presently, my current research on an emerging paradigm known as Risk Averse Reinforcement Learning, under the supervision of Prof. Andrzej Ruszczynski."
+    tagLine: " Aspiring Quant | Rutgers'24 | ex-ML Engineer | IIT Bombay'21",
+    intro: "I strive to solve complex problems at the intersection of finance and engineering through the fusion of models, algorithms, and data. I have 2+ years of experience as a Software Developer and Machine Learning Engineer in the finance industry. My work focuses on but not limited to High Performance Numerical Computing and Stochastic Optimization. Presently, I am working on Risk Averse Reinforcement Learning under the supervision of Prof. Andrzej Ruszczynski."
 }
