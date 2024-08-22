@@ -1241,10 +1241,10 @@ export const extraCurricular = [
         text: "Co-ordinated India's largest Remote Control Car racing event, 'International Full Throttle'",
         link: "",
       },
-      {
-        text: "",
-        link: "",
-      },
+      // {
+      //   text: "",
+      //   link: "",
+      // },
     ],
     logo: iitb,
   },
