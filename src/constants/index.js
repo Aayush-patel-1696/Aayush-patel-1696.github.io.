@@ -131,10 +131,10 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  {
-    id: "achievements",
-    title: "Achievements",
-  },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
   {
     id: "projects",
     title: "Projects",
