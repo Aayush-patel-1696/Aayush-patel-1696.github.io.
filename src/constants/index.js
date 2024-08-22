@@ -41,7 +41,8 @@ import {
   linedata,
   quantsapp,
   rates,
-  frdetection
+  frdetection,
+  pof
 } from "../assets";
 
 import {
@@ -97,8 +98,8 @@ import {
   SiOctave,
   SiNvidia,
   SiDocker,
-  SiAwsorganizations
-  
+  SiAwsorganizations,
+  SiGooglescholar
 } from "react-icons/si";
 
 import {
@@ -584,21 +585,21 @@ export const experiences = [
 ];
 
 export const openSourceContributions = [
-  // {
-  //   id: "os-1",
-  //   organisation: "PublicLab",
-  //   logo: publiclab,
-  //   repo: "plots2",
-  //   type: "pull-request",
-  //   status: "merged",
-  //   title:
-  //     "Move _wiki to old table look, common template for email and settings digest only",
-  //   link: "https://github.com/publiclab/plots2/pull/10731",
-  //   number: "#10731",
-  //   date: "Feb 24 2022",
-  //   linesAdded: "101",
-  //   linesDeleted: "48",
-  // },
+  {
+    id: "os-1",
+    organisation: "Papers",
+    logo: pof,
+    repo: "Physics of Fluids",
+    // type: "pull-request",
+    status: "merged",
+    title:
+      "A. Patel and R. Bhardwaj, Propulsive performance of a two-dimensional elliptic foil undergoing interlinked pitching and heaving in Physics of Fluids (Vol.34, Issue 11), AIP Publication",
+    link: "https://www.researchgate.net/profile/Rajneesh-Bhardwaj-2/publication/363826593_Propulsive_performance_of_a_two-dimensional_elliptic_foil_undergoing_interlinked_pitching_and_heaving/links/64e6d7dc40289f7a0faf0444/Propulsive-performance-of-a-two-dimensional-elliptic-foil-undergoing-interlinked-pitching-and-heaving.pdf",
+    // number: "#10731",
+    // date: "Feb 24 2022",
+    // linesAdded: "101",
+    // linesDeleted: "48",
+  },
   // {
   //   id: "os-2",
   //   organisation: "PublicLab",
@@ -1216,109 +1217,114 @@ export const stats = [
 
 export const extraCurricular = [
   {
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
+    organisation: "Fitizen India Half Marathon",
+    title: "Event coordinator",
+    duration: "October 2019 - November 2019",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
-      },
-      {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
-    ],
-    logo: devfolio,
-  },
-  {
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
+        text: "Organized the event with an eco-friendly approach for more than 4000+ participants",
         link: "",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
-      },
-    ],
-    logo: gdsc,
-  },
-  {
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
+        text: "Reduced the carbon emission by approximately 1000 kg and water footprint of 6500 Liters.",
         link: "",
       },
     ],
-    logo: genesis,
+    logo: iitb,
   },
   {
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
+    organisation: "IIT Bombay Techfest 2018",
+    title: "Event coordinator",
+    duration: "October 2018 - December 2018 ",
     content: [
       {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
+        text: "Co-ordinated India's largest Remote Control Car racing event, 'International Full Throttle'",
+        link: "",
       },
       {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
+        text: "",
         link: "",
       },
     ],
-    logo: ecell,
+    logo: iitb,
   },
+  // {
+  //   organisation: "Genesis, NITK",
+  //   title: "Competitions Head",
+  //   duration: "Sep 2021 - Present",
+  //   content: [
+  //     {
+  //       text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
+  //       link: "",
+  //     },
+  //     {
+  //       text: "Won 7 inter-college solo dance competitions",
+  //       link: "",
+  //     },
+  //   ],
+  //   logo: genesis,
+  // },
+  // {
+  //   organisation: "IRIS, NITK",
+  //   title: "Tutor",
+  //   duration: "Jan 2022 - Jan 2022",
+  //   content: [
+  //     {
+  //       text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
+  //       link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
+  //     },
+  //   ],
+  //   logo: iris,
+  // },
+  // {
+  //   organisation: "E-Cell, NITK",
+  //   title: "Executive Member",
+  //   duration: "Sep 2021 - Apr 2022",
+  //   content: [
+  //     {
+  //       text: "Organised the season 3 of the E-Cell NITK Podcast",
+  //       link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
+  //     },
+  //     {
+  //       text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
+  //       link: "",
+  //     },
+  //   ],
+  //   logo: ecell,
+  // },
 ];
 
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/aayushpatel1696",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/Aayush-patel-1696?tab=repositories",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:patelaayush183109002@gmail.com",
   },
   {
     id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
-  },
+    icon: SiGooglescholar,
+    link: "https://scholar.google.com/citations?user=TQW_hooAAAAJ&hl=en",
+  }
+  // {
+  //   id: "social-media-4",
+  //   icon: AiOutlineTwitter,
+  //   link: "https://www.twitter.com/mittalparth_",
+  // },
+  // {
+  //   id: "social-media-5",
+  //   icon: AiFillInstagram,
+  //   link: "https://www.instagram.com/mittalparth_",
+  // },
 ];
 
 export const aboutMe = {

@@ -99,13 +99,13 @@ const OpenSource = () => {
   return (
     <section id="openSource">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-        Open Source Contributions
+        Publication
       </h1>
 
       <div className="container px-2 py-5 mx-auto mb-8">
         <div class="flex items-center justify-center">
           <div class="flex items-center p-1 border border-blue-gradient dark:border-teal-400 rounded-xl">
-            {["PublicLab", "Zulip", "All"].map((item, index) => (
+            {["Papers"].map((item, index) => (
               <button
                 key={index}
                 onClick={() => handleContributionFilter(item)}

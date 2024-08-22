@@ -62,6 +62,7 @@ import linedata from "./linedata.png";
 import quantsapp from "./quantsapp.jpeg";
 import rates from "./interest_rates.png";
 import frdetection from "./credit_fruad.jpg"
+import pof from "./pof.jpg"
 
 export {
   quotes,
@@ -127,6 +128,7 @@ export {
   linedata,
   quantsapp,
   rates,
-  frdetection
+  frdetection,
+  pof
 
 };
