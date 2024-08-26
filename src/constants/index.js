@@ -1330,5 +1330,5 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Aayush Patel",
     tagLine: " Aspiring Quant | Rutgers'24 | ex-ML Engineer | IIT Bombay'21",
-    intro: "I strive to solve complex problems at the intersection of finance and engineering through the fusion of models, algorithms, and data. I have 2+ years of experience as a Software Developer and Machine Learning Engineer in the finance industry. My work focuses on but not limited to Stochastic Portfolio Optimization and High Performance Numerical Computing. Presently, I am working on Risk Averse Reinforcement Learning under the supervision of Prof. Andrzej Ruszczynski."
+    intro: "I strive to solve complex problems at the intersection of finance and engineering through the fusion of models, algorithms, and data. I have 2+ years of experience as a Software Developer and Machine Learning Engineer in the finance industry. My work focuses on but not limited to Stochastic Portfolio Optimization, Derivative Pricing, Quant/Risk Modeling and High Performance Numerical Computing. Presently, I am working on Risk Averse Reinforcement Learning under the supervision of Prof. Andrzej Ruszczynski."
 }
