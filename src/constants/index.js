@@ -423,7 +423,7 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Analyst (Machine Learning & Data), Linedata",
+    organisation: "Analyst (Machine Learning & Data), Risk Analytics Division,Linedata",
     logo: linedata,
     link: "https://www.linedata.com/",
     positions: [
@@ -467,7 +467,7 @@ export const experiences = [
      ],
   },
   {
-    organisation: "Python Software Developer, Quantsapp",
+    organisation: "Python Software Developer, Technology, Quantsapp",
     logo: quantsapp,
     link: "https://www.quantsapp.com/about",
     positions: [
