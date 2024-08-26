@@ -423,7 +423,7 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Machine Learning Engineer, Linedata",
+    organisation: "Analyst (Machine Learning Engineer & Data Engineering), Linedata",
     logo: linedata,
     link: "https://www.linedata.com/",
     positions: [
