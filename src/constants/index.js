@@ -423,7 +423,7 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Analyst (Machine Learning & Data), Risk Analytics Division, Linedata",
+    organisation: "Quantitative Analyst , Risk ML Analytics Division, Linedata",
     logo: linedata,
     link: "https://www.linedata.com/",
     positions: [
@@ -1330,5 +1330,5 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Aayush Patel",
     tagLine: " Aspiring Quant | Rutgers'24 | ex-ML Engineer | IIT Bombay'21",
-    intro: "I strive to solve complex problems at the intersection of finance and engineering through the fusion of models, algorithms, and data. I have 2+ years of experience as a Software Developer and Machine Learning Engineer in the finance industry. My work focuses on but not limited to Stochastic Portfolio Optimization, Derivative Pricing, Quant/Risk Modeling and High Performance Numerical Computing."
+    intro: "I strive to solve complex problems at the intersection of finance and engineering through the fusion of models, algorithms, and data. I have 2+ years of experience as Quantitative Analyst and Python Software Developer in the finance industry. My work focuses on but not limited to Stochastic Portfolio Optimization, Derivative Pricing, Quant/Risk Modeling and High Performance Numerical Computing."
 }
