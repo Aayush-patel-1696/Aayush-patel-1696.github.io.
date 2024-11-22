@@ -159,7 +159,7 @@ export const educationList = [
     icon: rutgers,
     title: "Rutgers University",
     degree: "Master of Technology, Quantitative Finance",
-    duration: "Aug 2023 - Dec 2024",
+    duration: "Aug 2023 - May 2025",
     content1: "GPA : 3.97",
     content2: "Received merit-based scholarship by the MQF Committee for being among exceptional candidates"
   },
